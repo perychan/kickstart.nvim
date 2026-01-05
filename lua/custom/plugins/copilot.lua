@@ -55,7 +55,7 @@ return {
       'nvim-lua/plenary.nvim',
       'MunifTanjim/nui.nvim',
       --- The below dependencies are optional
-      'nvim-tree/nvim-web-devicons',
+      { 'nvim-tree/nvim-web-devicons', enabled = vim.g.have_nerd_font },
       'zbirenbaum/copilot.lua', -- Required for GitHub Copilot provider
       {
         -- Make sure to set this up properly if you have lazy=true
