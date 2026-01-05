@@ -754,6 +754,7 @@ require('lazy').setup({
         'goimports', -- Auto import Go module
         'golangci-lint',
         'isort', -- Sort Python imports
+        'markdownlint', -- Lint markdown files
         'prettier', -- Format HTML, CSS...
         'shfmt', -- Format Bash
         'sql-formatter', -- Format SQL
